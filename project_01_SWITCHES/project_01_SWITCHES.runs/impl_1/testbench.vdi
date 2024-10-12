@@ -1,0 +1,639 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 04:59:54 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Fri Mar 22 14:09:05 2024
+# Process ID: 9047
+# Current directory: /home/arthur/project_01_SWITCHES/project_01_SWITCHES.runs/impl_1
+# Command line: vivado -log testbench.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source testbench.tcl -notrace
+# Log file: /home/arthur/project_01_SWITCHES/project_01_SWITCHES.runs/impl_1/testbench.vdi
+# Journal file: /home/arthur/project_01_SWITCHES/project_01_SWITCHES.runs/impl_1/vivado.jou
+# Running On: arthur, OS: Linux, CPU Frequency: 1780.359 MHz, CPU Physical cores: 16, Host memory: 7628 MB
+#-----------------------------------------------------------
+source testbench.tcl -notrace
+Command: link_design -top testbench -part xc7z010clg400-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1566.914 ; gain = 0.000 ; free physical = 599 ; free virtual = 2431
+INFO: [Project 1-479] Netlist was created with Vivado 2022.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/home/arthur/project_01_SWITCHES/project_01_SWITCHES.srcs/constrs_1/imports/Downloads/ZYBO_Master.xdc]
+WARNING: [Vivado 12-584] No ports matched 'VGA_R[0]'. [/home/arthur/project_01_SWITCHES/project_01_SWITCHES.srcs/constrs_1/imports/Downloads/ZYBO_Master.xdc:136]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/arthur/project_01_SWITCHES/project_01_SWITCHES.srcs/constrs_1/imports/Downloads/ZYBO_Master.xdc:136]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'VGA_R[1]'. [/home/arthur/project_01_SWITCHES/project_01_SWITCHES.srcs/constrs_1/imports/Downloads/ZYBO_Master.xdc:137]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/arthur/project_01_SWITCHES/project_01_SWITCHES.srcs/constrs_1/imports/Downloads/ZYBO_Master.xdc:137]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'VGA_R[2]'. [/home/arthur/project_01_SWITCHES/project_01_SWITCHES.srcs/constrs_1/imports/Downloads/ZYBO_Master.xdc:138]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/arthur/project_01_SWITCHES/project_01_SWITCHES.srcs/constrs_1/imports/Downloads/ZYBO_Master.xdc:138]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'VGA_R[3]'. [/home/arthur/project_01_SWITCHES/project_01_SWITCHES.srcs/constrs_1/imports/Downloads/ZYBO_Master.xdc:139]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/arthur/project_01_SWITCHES/project_01_SWITCHES.srcs/constrs_1/imports/Downloads/ZYBO_Master.xdc:139]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'VGA_R[4]'. [/home/arthur/project_01_SWITCHES/project_01_SWITCHES.srcs/constrs_1/imports/Downloads/ZYBO_Master.xdc:140]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/arthur/project_01_SWITCHES/project_01_SWITCHES.srcs/constrs_1/imports/Downloads/ZYBO_Master.xdc:140]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'VGA_G[0]'. [/home/arthur/project_01_SWITCHES/project_01_SWITCHES.srcs/constrs_1/imports/Downloads/ZYBO_Master.xdc:141]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/arthur/project_01_SWITCHES/project_01_SWITCHES.srcs/constrs_1/imports/Downloads/ZYBO_Master.xdc:141]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'VGA_G[1]'. [/home/arthur/project_01_SWITCHES/project_01_SWITCHES.srcs/constrs_1/imports/Downloads/ZYBO_Master.xdc:142]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/arthur/project_01_SWITCHES/project_01_SWITCHES.srcs/constrs_1/imports/Downloads/ZYBO_Master.xdc:142]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'VGA_G[2]'. [/home/arthur/project_01_SWITCHES/project_01_SWITCHES.srcs/constrs_1/imports/Downloads/ZYBO_Master.xdc:143]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/arthur/project_01_SWITCHES/project_01_SWITCHES.srcs/constrs_1/imports/Downloads/ZYBO_Master.xdc:143]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'VGA_G[3]'. [/home/arthur/project_01_SWITCHES/project_01_SWITCHES.srcs/constrs_1/imports/Downloads/ZYBO_Master.xdc:144]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/arthur/project_01_SWITCHES/project_01_SWITCHES.srcs/constrs_1/imports/Downloads/ZYBO_Master.xdc:144]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'VGA_G[4]'. [/home/arthur/project_01_SWITCHES/project_01_SWITCHES.srcs/constrs_1/imports/Downloads/ZYBO_Master.xdc:145]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/arthur/project_01_SWITCHES/project_01_SWITCHES.srcs/constrs_1/imports/Downloads/ZYBO_Master.xdc:145]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'VGA_G[5]'. [/home/arthur/project_01_SWITCHES/project_01_SWITCHES.srcs/constrs_1/imports/Downloads/ZYBO_Master.xdc:146]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/arthur/project_01_SWITCHES/project_01_SWITCHES.srcs/constrs_1/imports/Downloads/ZYBO_Master.xdc:146]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'VGA_B[0]'. [/home/arthur/project_01_SWITCHES/project_01_SWITCHES.srcs/constrs_1/imports/Downloads/ZYBO_Master.xdc:147]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/arthur/project_01_SWITCHES/project_01_SWITCHES.srcs/constrs_1/imports/Downloads/ZYBO_Master.xdc:147]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'VGA_B[1]'. [/home/arthur/project_01_SWITCHES/project_01_SWITCHES.srcs/constrs_1/imports/Downloads/ZYBO_Master.xdc:148]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/arthur/project_01_SWITCHES/project_01_SWITCHES.srcs/constrs_1/imports/Downloads/ZYBO_Master.xdc:148]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'VGA_B[2]'. [/home/arthur/project_01_SWITCHES/project_01_SWITCHES.srcs/constrs_1/imports/Downloads/ZYBO_Master.xdc:149]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/arthur/project_01_SWITCHES/project_01_SWITCHES.srcs/constrs_1/imports/Downloads/ZYBO_Master.xdc:149]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'VGA_B[3]'. [/home/arthur/project_01_SWITCHES/project_01_SWITCHES.srcs/constrs_1/imports/Downloads/ZYBO_Master.xdc:150]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/arthur/project_01_SWITCHES/project_01_SWITCHES.srcs/constrs_1/imports/Downloads/ZYBO_Master.xdc:150]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'VGA_B[4]'. [/home/arthur/project_01_SWITCHES/project_01_SWITCHES.srcs/constrs_1/imports/Downloads/ZYBO_Master.xdc:151]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/arthur/project_01_SWITCHES/project_01_SWITCHES.srcs/constrs_1/imports/Downloads/ZYBO_Master.xdc:151]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'VGA_HS_O'. [/home/arthur/project_01_SWITCHES/project_01_SWITCHES.srcs/constrs_1/imports/Downloads/ZYBO_Master.xdc:152]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/arthur/project_01_SWITCHES/project_01_SWITCHES.srcs/constrs_1/imports/Downloads/ZYBO_Master.xdc:152]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'VGA_VS_O'. [/home/arthur/project_01_SWITCHES/project_01_SWITCHES.srcs/constrs_1/imports/Downloads/ZYBO_Master.xdc:153]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/arthur/project_01_SWITCHES/project_01_SWITCHES.srcs/constrs_1/imports/Downloads/ZYBO_Master.xdc:153]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [/home/arthur/project_01_SWITCHES/project_01_SWITCHES.srcs/constrs_1/imports/Downloads/ZYBO_Master.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1669.383 ; gain = 0.000 ; free physical = 496 ; free virtual = 2329
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+5 Infos, 18 Warnings, 18 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:00.9 ; elapsed = 00:00:00.62 . Memory (MB): peak = 1758.195 ; gain = 84.844 ; free physical = 485 ; free virtual = 2319
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: c5e8b9fa
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2169.055 ; gain = 410.859 ; free physical = 179 ; free virtual = 1988
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: c5e8b9fa
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2445.945 ; gain = 0.000 ; free physical = 126 ; free virtual = 1722
+INFO: [Opt 31-389] Phase Retarget created 0 cells and removed 0 cells
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 2 Constant propagation | Checksum: c5e8b9fa
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2445.945 ; gain = 0.000 ; free physical = 126 ; free virtual = 1722
+INFO: [Opt 31-389] Phase Constant propagation created 0 cells and removed 0 cells
+
+Phase 3 Sweep
+Phase 3 Sweep | Checksum: c5e8b9fa
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2445.945 ; gain = 0.000 ; free physical = 126 ; free virtual = 1722
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 0 cells
+
+Phase 4 BUFG optimization
+Phase 4 BUFG optimization | Checksum: c5e8b9fa
+
+Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2477.961 ; gain = 32.016 ; free physical = 125 ; free virtual = 1722
+INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
+
+Phase 5 Shift Register Optimization
+INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
+Phase 5 Shift Register Optimization | Checksum: c5e8b9fa
+
+Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2477.961 ; gain = 32.016 ; free physical = 125 ; free virtual = 1722
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 6 Post Processing Netlist
+Phase 6 Post Processing Netlist | Checksum: c5e8b9fa
+
+Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2477.961 ; gain = 32.016 ; free physical = 125 ; free virtual = 1722
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |               0  |               0  |                                              0  |
+|  Constant propagation         |               0  |               0  |                                              0  |
+|  Sweep                        |               0  |               0  |                                              0  |
+|  BUFG optimization            |               0  |               0  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               0  |                                              0  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2477.961 ; gain = 0.000 ; free physical = 125 ; free virtual = 1722
+Ending Logic Optimization Task | Checksum: c5e8b9fa
+
+Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2477.961 ; gain = 32.016 ; free physical = 125 ; free virtual = 1722
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+Ending Power Optimization Task | Checksum: c5e8b9fa
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2477.961 ; gain = 0.000 ; free physical = 124 ; free virtual = 1721
+
+Starting Final Cleanup Task
+Ending Final Cleanup Task | Checksum: c5e8b9fa
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2477.961 ; gain = 0.000 ; free physical = 124 ; free virtual = 1721
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2477.961 ; gain = 0.000 ; free physical = 124 ; free virtual = 1721
+Ending Netlist Obfuscation Task | Checksum: c5e8b9fa
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2477.961 ; gain = 0.000 ; free physical = 124 ; free virtual = 1721
+INFO: [Common 17-83] Releasing license: Implementation
+22 Infos, 18 Warnings, 18 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2477.961 ; gain = 804.609 ; free physical = 124 ; free virtual = 1721
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00.05 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2501.973 ; gain = 16.008 ; free physical = 127 ; free virtual = 1719
+INFO: [Common 17-1381] The checkpoint '/home/arthur/project_01_SWITCHES/project_01_SWITCHES.runs/impl_1/testbench_opt.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_drc -file testbench_drc_opted.rpt -pb testbench_drc_opted.pb -rpx testbench_drc_opted.rpx
+Command: report_drc -file testbench_drc_opted.rpt -pb testbench_drc_opted.pb -rpx testbench_drc_opted.rpx
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/Vivado/2022.2/data/ip'.
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file /home/arthur/project_01_SWITCHES/project_01_SWITCHES.runs/impl_1/testbench_drc_opted.rpt.
+report_drc completed successfully
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 8 CPUs
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2614.027 ; gain = 0.000 ; free physical = 138 ; free virtual = 1688
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 4395b7e3
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2614.027 ; gain = 0.000 ; free physical = 138 ; free virtual = 1688
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2614.027 ; gain = 0.000 ; free physical = 138 ; free virtual = 1688
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 12b8b50d4
+
+Time (s): cpu = 00:00:00.17 ; elapsed = 00:00:00.08 . Memory (MB): peak = 2614.027 ; gain = 0.000 ; free physical = 123 ; free virtual = 1677
+
+Phase 1.3 Build Placer Netlist Model
+WARNING: [Place 30-2953] Timing driven mode will be turned off because no critical terminals were found.
+Phase 1.3 Build Placer Netlist Model | Checksum: 20a5c2761
+
+Time (s): cpu = 00:00:00.31 ; elapsed = 00:00:00.1 . Memory (MB): peak = 2614.027 ; gain = 0.000 ; free physical = 129 ; free virtual = 1685
+
+Phase 1.4 Constrain Clocks/Macros
+Phase 1.4 Constrain Clocks/Macros | Checksum: 20a5c2761
+
+Time (s): cpu = 00:00:00.31 ; elapsed = 00:00:00.1 . Memory (MB): peak = 2614.027 ; gain = 0.000 ; free physical = 129 ; free virtual = 1685
+Phase 1 Placer Initialization | Checksum: 20a5c2761
+
+Time (s): cpu = 00:00:00.31 ; elapsed = 00:00:00.1 . Memory (MB): peak = 2614.027 ; gain = 0.000 ; free physical = 129 ; free virtual = 1685
+
+Phase 2 Global Placement
+
+Phase 2.1 Floorplanning
+Phase 2.1 Floorplanning | Checksum: 20a5c2761
+
+Time (s): cpu = 00:00:00.31 ; elapsed = 00:00:00.11 . Memory (MB): peak = 2614.027 ; gain = 0.000 ; free physical = 129 ; free virtual = 1686
+
+Phase 2.2 Update Timing before SLR Path Opt
+Phase 2.2 Update Timing before SLR Path Opt | Checksum: 20a5c2761
+
+Time (s): cpu = 00:00:00.31 ; elapsed = 00:00:00.11 . Memory (MB): peak = 2614.027 ; gain = 0.000 ; free physical = 129 ; free virtual = 1686
+
+Phase 2.3 Post-Processing in Floorplanning
+Phase 2.3 Post-Processing in Floorplanning | Checksum: 20a5c2761
+
+Time (s): cpu = 00:00:00.31 ; elapsed = 00:00:00.11 . Memory (MB): peak = 2614.027 ; gain = 0.000 ; free physical = 129 ; free virtual = 1686
+
+Phase 2.4 Global Placement Core
+WARNING: [Place 46-29] Timing had been disabled during Placer and, therefore, physical synthesis in Placer will be skipped.
+Phase 2.4 Global Placement Core | Checksum: 20c50f316
+
+Time (s): cpu = 00:00:00.76 ; elapsed = 00:00:00.2 . Memory (MB): peak = 2614.027 ; gain = 0.000 ; free physical = 155 ; free virtual = 1678
+Phase 2 Global Placement | Checksum: 20c50f316
+
+Time (s): cpu = 00:00:00.76 ; elapsed = 00:00:00.2 . Memory (MB): peak = 2614.027 ; gain = 0.000 ; free physical = 156 ; free virtual = 1679
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 20c50f316
+
+Time (s): cpu = 00:00:00.77 ; elapsed = 00:00:00.2 . Memory (MB): peak = 2614.027 ; gain = 0.000 ; free physical = 157 ; free virtual = 1677
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 1ca1160c9
+
+Time (s): cpu = 00:00:00.81 ; elapsed = 00:00:00.2 . Memory (MB): peak = 2614.027 ; gain = 0.000 ; free physical = 161 ; free virtual = 1677
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 1814bd261
+
+Time (s): cpu = 00:00:00.82 ; elapsed = 00:00:00.21 . Memory (MB): peak = 2614.027 ; gain = 0.000 ; free physical = 161 ; free virtual = 1677
+
+Phase 3.4 Pipeline Register Optimization
+Phase 3.4 Pipeline Register Optimization | Checksum: 1814bd261
+
+Time (s): cpu = 00:00:00.83 ; elapsed = 00:00:00.21 . Memory (MB): peak = 2614.027 ; gain = 0.000 ; free physical = 161 ; free virtual = 1677
+
+Phase 3.5 Small Shape Detail Placement
+Phase 3.5 Small Shape Detail Placement | Checksum: 742ed5b3
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.25 . Memory (MB): peak = 2614.027 ; gain = 0.000 ; free physical = 159 ; free virtual = 1676
+
+Phase 3.6 Re-assign LUT pins
+Phase 3.6 Re-assign LUT pins | Checksum: 742ed5b3
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.25 . Memory (MB): peak = 2614.027 ; gain = 0.000 ; free physical = 159 ; free virtual = 1676
+
+Phase 3.7 Pipeline Register Optimization
+Phase 3.7 Pipeline Register Optimization | Checksum: 742ed5b3
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.25 . Memory (MB): peak = 2614.027 ; gain = 0.000 ; free physical = 159 ; free virtual = 1676
+Phase 3 Detail Placement | Checksum: 742ed5b3
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.25 . Memory (MB): peak = 2614.027 ; gain = 0.000 ; free physical = 159 ; free virtual = 1676
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+Phase 4.1 Post Commit Optimization | Checksum: 742ed5b3
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.26 . Memory (MB): peak = 2614.027 ; gain = 0.000 ; free physical = 159 ; free virtual = 1676
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: 742ed5b3
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.27 . Memory (MB): peak = 2614.027 ; gain = 0.000 ; free physical = 159 ; free virtual = 1676
+
+Phase 4.3 Placer Reporting
+
+Phase 4.3.1 Print Estimated Congestion
+INFO: [Place 30-612] Post-Placement Estimated Congestion 
+ ____________________________________________________
+|           | Global Congestion | Short Congestion  |
+| Direction | Region Size       | Region Size       |
+|___________|___________________|___________________|
+|      North|                1x1|                1x1|
+|___________|___________________|___________________|
+|      South|                1x1|                1x1|
+|___________|___________________|___________________|
+|       East|                1x1|                1x1|
+|___________|___________________|___________________|
+|       West|                1x1|                1x1|
+|___________|___________________|___________________|
+
+Phase 4.3.1 Print Estimated Congestion | Checksum: 742ed5b3
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.27 . Memory (MB): peak = 2614.027 ; gain = 0.000 ; free physical = 159 ; free virtual = 1676
+Phase 4.3 Placer Reporting | Checksum: 742ed5b3
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.27 . Memory (MB): peak = 2614.027 ; gain = 0.000 ; free physical = 159 ; free virtual = 1676
+
+Phase 4.4 Final Placement Cleanup
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2614.027 ; gain = 0.000 ; free physical = 159 ; free virtual = 1676
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.27 . Memory (MB): peak = 2614.027 ; gain = 0.000 ; free physical = 159 ; free virtual = 1676
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 607d5197
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.27 . Memory (MB): peak = 2614.027 ; gain = 0.000 ; free physical = 159 ; free virtual = 1676
+Ending Placer Task | Checksum: 4d49206b
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.27 . Memory (MB): peak = 2614.027 ; gain = 0.000 ; free physical = 159 ; free virtual = 1676
+INFO: [Common 17-83] Releasing license: Implementation
+41 Infos, 20 Warnings, 18 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00.05 ; elapsed = 00:00:00.03 . Memory (MB): peak = 2614.027 ; gain = 0.000 ; free physical = 161 ; free virtual = 1678
+INFO: [Common 17-1381] The checkpoint '/home/arthur/project_01_SWITCHES/project_01_SWITCHES.runs/impl_1/testbench_placed.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_io -file testbench_io_placed.rpt
+report_io: Time (s): cpu = 00:00:00.1 ; elapsed = 00:00:00.17 . Memory (MB): peak = 2614.027 ; gain = 0.000 ; free physical = 140 ; free virtual = 1657
+INFO: [runtcl-4] Executing : report_utilization -file testbench_utilization_placed.rpt -pb testbench_utilization_placed.pb
+INFO: [runtcl-4] Executing : report_control_sets -verbose -file testbench_control_sets_placed.rpt
+report_control_sets: Time (s): cpu = 00:00:00.05 ; elapsed = 00:00:00.1 . Memory (MB): peak = 2614.027 ; gain = 0.000 ; free physical = 156 ; free virtual = 1673
+Command: phys_opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
+
+Starting Initial Update Timing Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2614.027 ; gain = 0.000 ; free physical = 135 ; free virtual = 1652
+INFO: [Vivado_Tcl 4-383] Design worst setup slack (WNS) is greater than or equal to 0.000 ns. Skipping all physical synthesis optimizations.
+INFO: [Vivado_Tcl 4-232] No setup violation found. The netlist was not modified.
+INFO: [Common 17-83] Releasing license: Implementation
+51 Infos, 20 Warnings, 18 Critical Warnings and 0 Errors encountered.
+phys_opt_design completed successfully
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00.06 ; elapsed = 00:00:00.03 . Memory (MB): peak = 2614.027 ; gain = 0.000 ; free physical = 128 ; free virtual = 1645
+INFO: [Common 17-1381] The checkpoint '/home/arthur/project_01_SWITCHES/project_01_SWITCHES.runs/impl_1/testbench_physopt.dcp' has been generated.
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 8 CPUs
+
+Phase 1 Build RT Design
+Checksum: PlaceDB: 2b2a8114 ConstDB: 0 ShapeSum: 221e9f57 RouteDB: 0
+Post Restoration Checksum: NetGraph: de0e5451 NumContArr: 4dbcd07e Constraints: 0 Timing: 0
+Phase 1 Build RT Design | Checksum: 12bcb24cf
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 2621.574 ; gain = 0.000 ; free physical = 157 ; free virtual = 1580
+
+Phase 2 Router Initialization
+
+Phase 2.1 Fix Topology Constraints
+Phase 2.1 Fix Topology Constraints | Checksum: 12bcb24cf
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 2636.594 ; gain = 15.020 ; free physical = 125 ; free virtual = 1549
+
+Phase 2.2 Pre Route Cleanup
+Phase 2.2 Pre Route Cleanup | Checksum: 12bcb24cf
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 2636.594 ; gain = 15.020 ; free physical = 124 ; free virtual = 1549
+ Number of Nodes with overlaps = 0
+
+Phase 2.3 Update Timing
+Phase 2.3 Update Timing | Checksum: 16750920
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 2642.594 ; gain = 21.020 ; free physical = 168 ; free virtual = 1547
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0.0147804 %
+  Global Horizontal Routing Utilization  = 0.00206801 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 12
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 9
+  Number of Partially Routed Nets     = 3
+  Number of Node Overlaps             = 3
+
+Phase 2 Router Initialization | Checksum: 16750920
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 2645.594 ; gain = 24.020 ; free physical = 191 ; free virtual = 1554
+
+Phase 3 Initial Routing
+
+Phase 3.1 Global Routing
+Phase 3.1 Global Routing | Checksum: 16750920
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 2645.594 ; gain = 24.020 ; free physical = 196 ; free virtual = 1559
+Phase 3 Initial Routing | Checksum: 19dc6d29b
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 2645.594 ; gain = 24.020 ; free physical = 220 ; free virtual = 1561
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 0
+Phase 4.1 Global Iteration 0 | Checksum: 8d8f16a9
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 2645.594 ; gain = 24.020 ; free physical = 221 ; free virtual = 1561
+Phase 4 Rip-up And Reroute | Checksum: 8d8f16a9
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 2645.594 ; gain = 24.020 ; free physical = 221 ; free virtual = 1561
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 Delay CleanUp
+Phase 5.1 Delay CleanUp | Checksum: 8d8f16a9
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 2645.594 ; gain = 24.020 ; free physical = 221 ; free virtual = 1561
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: 8d8f16a9
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 2645.594 ; gain = 24.020 ; free physical = 221 ; free virtual = 1561
+Phase 5 Delay and Skew Optimization | Checksum: 8d8f16a9
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 2645.594 ; gain = 24.020 ; free physical = 221 ; free virtual = 1561
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Hold Fix Iter
+
+Phase 6.1.1 Update Timing
+Phase 6.1.1 Update Timing | Checksum: 8d8f16a9
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 2645.594 ; gain = 24.020 ; free physical = 222 ; free virtual = 1562
+Phase 6.1 Hold Fix Iter | Checksum: 8d8f16a9
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 2645.594 ; gain = 24.020 ; free physical = 222 ; free virtual = 1562
+Phase 6 Post Hold Fix | Checksum: 8d8f16a9
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 2645.594 ; gain = 24.020 ; free physical = 222 ; free virtual = 1562
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0.0292793 %
+  Global Horizontal Routing Utilization  = 0.00459559 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 7 Route finalize | Checksum: 8d8f16a9
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 2645.594 ; gain = 24.020 ; free physical = 222 ; free virtual = 1562
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: 8d8f16a9
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 2645.594 ; gain = 24.020 ; free physical = 220 ; free virtual = 1560
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: dd657acb
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 2661.602 ; gain = 40.027 ; free physical = 220 ; free virtual = 1560
+
+Phase 10 Post Router Timing
+Phase 10 Post Router Timing | Checksum: dd657acb
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 2661.602 ; gain = 40.027 ; free physical = 220 ; free virtual = 1560
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 2661.602 ; gain = 40.027 ; free physical = 252 ; free virtual = 1592
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+60 Infos, 20 Warnings, 18 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 2661.602 ; gain = 47.574 ; free physical = 252 ; free virtual = 1592
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00.05 ; elapsed = 00:00:00.04 . Memory (MB): peak = 2661.602 ; gain = 0.000 ; free physical = 251 ; free virtual = 1592
+INFO: [Common 17-1381] The checkpoint '/home/arthur/project_01_SWITCHES/project_01_SWITCHES.runs/impl_1/testbench_routed.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_drc -file testbench_drc_routed.rpt -pb testbench_drc_routed.pb -rpx testbench_drc_routed.rpx
+Command: report_drc -file testbench_drc_routed.rpt -pb testbench_drc_routed.pb -rpx testbench_drc_routed.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file /home/arthur/project_01_SWITCHES/project_01_SWITCHES.runs/impl_1/testbench_drc_routed.rpt.
+report_drc completed successfully
+INFO: [runtcl-4] Executing : report_methodology -file testbench_methodology_drc_routed.rpt -pb testbench_methodology_drc_routed.pb -rpx testbench_methodology_drc_routed.rpx
+Command: report_methodology -file testbench_methodology_drc_routed.rpt -pb testbench_methodology_drc_routed.pb -rpx testbench_methodology_drc_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 8 threads
+INFO: [Vivado_Tcl 2-1520] The results of Report Methodology are in file /home/arthur/project_01_SWITCHES/project_01_SWITCHES.runs/impl_1/testbench_methodology_drc_routed.rpt.
+report_methodology completed successfully
+INFO: [runtcl-4] Executing : report_power -file testbench_power_routed.rpt -pb testbench_power_summary_routed.pb -rpx testbench_power_routed.rpx
+Command: report_power -file testbench_power_routed.rpt -pb testbench_power_summary_routed.pb -rpx testbench_power_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+72 Infos, 20 Warnings, 18 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+INFO: [runtcl-4] Executing : report_route_status -file testbench_route_status.rpt -pb testbench_route_status.pb
+INFO: [runtcl-4] Executing : report_timing_summary -max_paths 10 -report_unconstrained -file testbench_timing_summary_routed.rpt -pb testbench_timing_summary_routed.pb -rpx testbench_timing_summary_routed.rpx -warn_on_violation 
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 8 CPUs
+INFO: [runtcl-4] Executing : report_incremental_reuse -file testbench_incremental_reuse_routed.rpt
+INFO: [Vivado_Tcl 4-1062] Incremental flow is disabled. No incremental reuse Info to report.
+INFO: [runtcl-4] Executing : report_clock_utilization -file testbench_clock_utilization_routed.rpt
+INFO: [runtcl-4] Executing : report_bus_skew -warn_on_violation -file testbench_bus_skew_routed.rpt -pb testbench_bus_skew_routed.pb -rpx testbench_bus_skew_routed.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 8 CPUs
+INFO: [Common 17-206] Exiting Vivado at Fri Mar 22 14:09:39 2024...
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 04:59:54 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Fri Mar 22 14:10:06 2024
+# Process ID: 10915
+# Current directory: /home/arthur/project_01_SWITCHES/project_01_SWITCHES.runs/impl_1
+# Command line: vivado -log testbench.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source testbench.tcl -notrace
+# Log file: /home/arthur/project_01_SWITCHES/project_01_SWITCHES.runs/impl_1/testbench.vdi
+# Journal file: /home/arthur/project_01_SWITCHES/project_01_SWITCHES.runs/impl_1/vivado.jou
+# Running On: arthur, OS: Linux, CPU Frequency: 1412.256 MHz, CPU Physical cores: 16, Host memory: 7628 MB
+#-----------------------------------------------------------
+source testbench.tcl -notrace
+Command: open_checkpoint testbench_routed.dcp
+
+Starting open_checkpoint Task
+
+Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.05 . Memory (MB): peak = 1262.098 ; gain = 0.000 ; free physical = 1442 ; free virtual = 2818
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1564.582 ; gain = 0.000 ; free physical = 868 ; free virtual = 2362
+INFO: [Project 1-479] Netlist was created with Vivado 2022.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF Files: Time (s): cpu = 00:00:00.06 ; elapsed = 00:00:00.07 . Memory (MB): peak = 2163.551 ; gain = 5.938 ; free physical = 341 ; free virtual = 1844
+Restored from archive | CPU: 0.070000 secs | Memory: 1.199280 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00.06 ; elapsed = 00:00:00.07 . Memory (MB): peak = 2163.551 ; gain = 5.938 ; free physical = 341 ; free virtual = 1844
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2163.551 ; gain = 0.000 ; free physical = 341 ; free virtual = 1844
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Project 1-604] Checkpoint was created with Vivado v2022.2 (64-bit) build 3671981
+OpenCheckpoint Checksum | Checksum: 17a4cd10e
+----- Checksum: PlaceDB: da8934a4 ShapeSum: 221e9f57 RouteDB: 7da4fd13 
+open_checkpoint: Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 2163.551 ; gain = 901.453 ; free physical = 341 ; free virtual = 1844
+Command: write_bitstream -force testbench.bit
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
+Running DRC as a precondition to command write_bitstream
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/Vivado/2022.2/data/ip'.
+INFO: [DRC 23-27] Running DRC with 8 threads
+WARNING: [DRC PDRC-153] Gated clock check: Net xx_reg_i_2_n_0 is a gated clock net sourced by a combinational pin xx_reg_i_2/O, cell xx_reg_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC ZPS7-1] PS7 block required: The PS7 cell must be used in this Zynq design in order to enable correct default configuration.
+INFO: [Vivado 12-3199] DRC finished with 0 Errors, 2 Warnings
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+INFO: [Designutils 20-2272] Running write_bitstream with 8 threads.
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Writing bitstream ./testbench.bit...
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
+INFO: [Project 1-1876] WebTalk data collection is mandatory when using a ULT device. To see the specific WebTalk data collected for your design, open the usage_statistics_webtalk.html or usage_statistics_webtalk.xml file in the implementation directory.
+INFO: [Common 17-83] Releasing license: Implementation
+20 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+write_bitstream completed successfully
+write_bitstream: Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 2603.516 ; gain = 439.965 ; free physical = 496 ; free virtual = 1841
+INFO: [Common 17-206] Exiting Vivado at Fri Mar 22 14:10:37 2024...

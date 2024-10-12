@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 04:59:54 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Fri Mar 15 08:28:54 2024
+# Process ID: 4955
+# Current directory: /home/arthur/project_teste_zybo/project_teste_zybo.runs/impl_1
+# Command line: vivado -log and_teste.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source and_teste.tcl -notrace
+# Log file: /home/arthur/project_teste_zybo/project_teste_zybo.runs/impl_1/and_teste.vdi
+# Journal file: /home/arthur/project_teste_zybo/project_teste_zybo.runs/impl_1/vivado.jou
+# Running On: arthur, OS: Linux, CPU Frequency: 1363.397 MHz, CPU Physical cores: 16, Host memory: 7628 MB
+#-----------------------------------------------------------
+source and_teste.tcl -notrace

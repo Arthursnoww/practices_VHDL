@@ -1,0 +1,15 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../../../home/arthur/Downloads/Codigos/and_teste.vhd" \
+"../../../../pratica_1.srcs/sources_1/new/flip_flop_D_teste.vhd" \
+"../../../../pratica_1.srcs/sources_1/new/lacth_teste.vhd" \
+"../../../../pratica_1.srcs/sources_1/new/nand_teste.vhd" \
+"../../../../pratica_1.srcs/sources_1/new/nor_teste.vhd" \
+"../../../../pratica_1.srcs/sources_1/new/not_teste.vhd" \
+"../../../../../../../home/arthur/Downloads/Codigos/or_teste.vhd" \
+"../../../../pratica_1.srcs/sources_1/new/xnor_teste.vhd" \
+"../../../../pratica_1.srcs/sources_1/new/xor teste.vhd" \
+"../../../../../../../home/arthur/Downloads/Codigos/testbench.vhd" \
+
+# Do not sort compile order
+nosort

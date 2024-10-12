@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 04:59:54 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Fri Mar 22 14:09:05 2024
+# Process ID: 9047
+# Current directory: /home/arthur/project_01_SWITCHES/project_01_SWITCHES.runs/impl_1
+# Command line: vivado -log testbench.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source testbench.tcl -notrace
+# Log file: /home/arthur/project_01_SWITCHES/project_01_SWITCHES.runs/impl_1/testbench.vdi
+# Journal file: /home/arthur/project_01_SWITCHES/project_01_SWITCHES.runs/impl_1/vivado.jou
+# Running On: arthur, OS: Linux, CPU Frequency: 1780.359 MHz, CPU Physical cores: 16, Host memory: 7628 MB
+#-----------------------------------------------------------
+source testbench.tcl -notrace

@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z010clg400-1" LaunchTime="1711127341">
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="testbench_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS" Name="testbench_routed.rqs"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="BG-DRC" Name="testbench.drc"/>
+  <File Type="BG-BGN" Name="testbench.bgn"/>
+  <File Type="BITSTR-SYSDEF" Name="testbench.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="testbench.ltx"/>
+  <File Type="RBD_FILE" Name="testbench.rbd"/>
+  <File Type="NPI_FILE" Name="testbench.npi"/>
+  <File Type="RNPI_FILE" Name="testbench.rnpi"/>
+  <File Type="CFI_FILE" Name="testbench.cfi"/>
+  <File Type="RCFI_FILE" Name="testbench.rcfi"/>
+  <File Type="RDI-RDI" Name="testbench.vdi"/>
+  <File Type="PDI-FILE" Name="testbench.pdi"/>
+  <File Type="BITSTR-MMI" Name="testbench.mmi"/>
+  <File Type="BITSTR-BMM" Name="testbench_bd.bmm"/>
+  <File Type="BITSTR-NKY" Name="testbench.nky"/>
+  <File Type="BITSTR-RBT" Name="testbench.rbt"/>
+  <File Type="BITSTR-MSK" Name="testbench.msk"/>
+  <File Type="BG-BIN" Name="testbench.bin"/>
+  <File Type="BG-BIT" Name="testbench.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="testbench_bus_skew_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="testbench_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="testbench_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="testbench_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="testbench_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="testbench_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="testbench_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="testbench_postroute_physopt.dcp"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="testbench_bus_skew_routed.rpx"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="testbench_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW" Name="testbench_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="testbench_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-SIMILARITY" Name="testbench_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-TIMING-RPX" Name="testbench_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-TIMING-PB" Name="testbench_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="testbench_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="testbench_route_status.pb"/>
+  <File Type="ROUTE-STATUS" Name="testbench_route_status.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="testbench_power_routed.rpx"/>
+  <File Type="ROUTE-PWR-SUM" Name="testbench_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="testbench_power_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="testbench_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="testbench_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="testbench_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-RPX" Name="testbench_drc_routed.rpx"/>
+  <File Type="ROUTE-DRC-PB" Name="testbench_drc_routed.pb"/>
+  <File Type="ROUTE-DRC" Name="testbench_drc_routed.rpt"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="testbench_routed_bb.dcp"/>
+  <File Type="ROUTE-DCP" Name="testbench_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="testbench_routed_error.dcp"/>
+  <File Type="PHYSOPT-TIMING" Name="testbench_timing_summary_physopted.rpt"/>
+  <File Type="PHYSOPT-DRC" Name="testbench_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="testbench_physopt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="testbench_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="testbench_postplace_pwropt.dcp"/>
+  <File Type="PLACE-TIMING" Name="testbench_timing_summary_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="testbench_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="testbench_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-CTRL" Name="testbench_control_sets_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="testbench_utilization_placed.pb"/>
+  <File Type="PLACE-UTIL" Name="testbench_utilization_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="testbench_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-IO" Name="testbench_io_placed.rpt"/>
+  <File Type="PLACE-DCP" Name="testbench_placed.dcp"/>
+  <File Type="PWROPT-TIMING" Name="testbench_timing_summary_pwropted.rpt"/>
+  <File Type="PWROPT-DRC" Name="testbench_drc_pwropted.rpt"/>
+  <File Type="PWROPT-DCP" Name="testbench_pwropt.dcp"/>
+  <File Type="OPT-HWDEF" Name="testbench.hwdef"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="testbench_methodology_drc_opted.rpt"/>
+  <File Type="OPT-DRC" Name="testbench_drc_opted.rpt"/>
+  <File Type="OPT-DCP" Name="testbench_opt.dcp"/>
+  <File Type="OPT-TIMING" Name="testbench_timing_summary_opted.rpt"/>
+  <File Type="REPORTS-TCL" Name="testbench_reports.tcl"/>
+  <File Type="INIT-TIMING" Name="testbench_timing_summary_init.rpt"/>
+  <File Type="PA-TCL" Name="testbench.tcl"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/arthur/Downloads/Codigos/and_teste.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Downloads/Codigos/and_teste.vhd"/>
+        <Attr Name="ImportTime" Val="1710504912"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/arthur/Área de Trabalho/2024.1/SISTEMAS DIGITAIS/practice_01_ports/flip_flop_D_teste.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Área de Trabalho/2024.1/SISTEMAS DIGITAIS/practice_01_ports/flip_flop_D_teste.vhd"/>
+        <Attr Name="ImportTime" Val="1710118809"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/arthur/Área de Trabalho/2024.1/SISTEMAS DIGITAIS/practice_01_ports/hall_adder_teste.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Área de Trabalho/2024.1/SISTEMAS DIGITAIS/practice_01_ports/hall_adder_teste.vhd"/>
+        <Attr Name="ImportTime" Val="1710338595"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/arthur/Área de Trabalho/2024.1/SISTEMAS DIGITAIS/practice_01_ports/lacth_teste.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Área de Trabalho/2024.1/SISTEMAS DIGITAIS/practice_01_ports/lacth_teste.vhd"/>
+        <Attr Name="ImportTime" Val="1710117842"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/arthur/Área de Trabalho/2024.1/SISTEMAS DIGITAIS/practice_01_ports/nand_teste.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Área de Trabalho/2024.1/SISTEMAS DIGITAIS/practice_01_ports/nand_teste.vhd"/>
+        <Attr Name="ImportTime" Val="1710113949"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/arthur/Área de Trabalho/2024.1/SISTEMAS DIGITAIS/practice_01_ports/nor_teste.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Área de Trabalho/2024.1/SISTEMAS DIGITAIS/practice_01_ports/nor_teste.vhd"/>
+        <Attr Name="ImportTime" Val="1710101053"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/arthur/Área de Trabalho/2024.1/SISTEMAS DIGITAIS/practice_01_ports/not_teste.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Área de Trabalho/2024.1/SISTEMAS DIGITAIS/practice_01_ports/not_teste.vhd"/>
+        <Attr Name="ImportTime" Val="1710116065"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/arthur/Downloads/Codigos/or_teste.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Downloads/Codigos/or_teste.vhd"/>
+        <Attr Name="ImportTime" Val="1709927879"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/arthur/Área de Trabalho/2024.1/SISTEMAS DIGITAIS/practice_01_ports/xnor_teste.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Área de Trabalho/2024.1/SISTEMAS DIGITAIS/practice_01_ports/xnor_teste.vhd"/>
+        <Attr Name="ImportTime" Val="1710114996"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/arthur/Área de Trabalho/2024.1/SISTEMAS DIGITAIS/practice_01_ports/xor teste.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Área de Trabalho/2024.1/SISTEMAS DIGITAIS/practice_01_ports/xor teste.vhd"/>
+        <Attr Name="ImportTime" Val="1710115013"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/arthur/Downloads/Codigos/testbench.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Downloads/Codigos/testbench.vhd"/>
+        <Attr Name="ImportTime" Val="1711041925"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/flip_flop_D_teste.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../opt/Xilinx/pratica_1/pratica_1.srcs/sources_1/new/flip_flop_D_teste.vhd"/>
+        <Attr Name="ImportTime" Val="1710118809"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/lacth_teste.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../opt/Xilinx/pratica_1/pratica_1.srcs/sources_1/new/lacth_teste.vhd"/>
+        <Attr Name="ImportTime" Val="1710117842"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/nand_teste.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../opt/Xilinx/pratica_1/pratica_1.srcs/sources_1/new/nand_teste.vhd"/>
+        <Attr Name="ImportTime" Val="1710113949"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/nor_teste.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../opt/Xilinx/pratica_1/pratica_1.srcs/sources_1/new/nor_teste.vhd"/>
+        <Attr Name="ImportTime" Val="1710101053"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/not_teste.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../opt/Xilinx/pratica_1/pratica_1.srcs/sources_1/new/not_teste.vhd"/>
+        <Attr Name="ImportTime" Val="1710116065"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/xnor_teste.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../opt/Xilinx/pratica_1/pratica_1.srcs/sources_1/new/xnor_teste.vhd"/>
+        <Attr Name="ImportTime" Val="1710114996"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/xor teste.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../opt/Xilinx/pratica_1/pratica_1.srcs/sources_1/new/xor teste.vhd"/>
+        <Attr Name="ImportTime" Val="1710115013"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/arthur/Área de Trabalho/2024.1/SISTEMAS DIGITAIS/practice_01_ports/or_teste.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Área de Trabalho/2024.1/SISTEMAS DIGITAIS/practice_01_ports/or_teste.vhd"/>
+        <Attr Name="ImportTime" Val="1709927879"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/arthur/Área de Trabalho/2024.1/SISTEMAS DIGITAIS/practice_01_ports/and_teste.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Área de Trabalho/2024.1/SISTEMAS DIGITAIS/practice_01_ports/and_teste.vhd"/>
+        <Attr Name="ImportTime" Val="1709926974"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="testbench"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/Downloads/ZYBO_Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Downloads/ZYBO_Master.xdc"/>
+        <Attr Name="ImportTime" Val="1711042122"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/and_teste.dcp">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../opt/Xilinx/pratica_1/pratica_1.srcs/utils_1/imports/synth_1/and_teste.dcp"/>
+        <Attr Name="ImportTime" Val="1711042128"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
